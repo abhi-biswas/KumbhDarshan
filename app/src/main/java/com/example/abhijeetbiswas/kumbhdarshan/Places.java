@@ -1,12 +1,14 @@
 package com.example.abhijeetbiswas.kumbhdarshan;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 public class Places extends Fragment {
@@ -51,12 +53,22 @@ public class Places extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }*/
-
+    View view;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_places, container, false);
+        view=inflater.inflate(R.layout.fragment_places, container, false);
+        Button button=(Button)view.findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Uri uri = Uri.parse("geo:0,0?q=allahabad+sangam");
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(uri);
+                startActivity(intent);
+            }
+        });
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
