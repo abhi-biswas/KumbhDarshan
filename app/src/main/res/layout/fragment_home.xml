@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_rel"
     android:layout_width="match_parent"
@@ -8,12 +8,43 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="143dp"
-        android:text="Home" />
-</FrameLayout>
+        android:layout_marginStart="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/button_home_sc"
+            android:layout_width="170sp"
+            android:layout_height="50sp"
+            android:background="@color/colorPrimary"
+            android:text="Schedule"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_home_tem"
+            android:layout_width="170sp"
+            android:layout_height="50sp"
+            android:background="@color/colorPrimary"
+            android:text="Temples"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/view_home"
+        android:layout_width="match_parent"
+        android:layout_height="700sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="58dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</RelativeLayout>
