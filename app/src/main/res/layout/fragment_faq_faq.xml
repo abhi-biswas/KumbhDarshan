@@ -8,14 +8,38 @@
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="453sp"
+        android:layout_height="700sp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true">
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp">
+
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="105dp"
+                    android:layout_marginStart="71dp"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+            </RelativeLayout>
         </ScrollView>
+
+
     </RelativeLayout>
 
 </RelativeLayout>
