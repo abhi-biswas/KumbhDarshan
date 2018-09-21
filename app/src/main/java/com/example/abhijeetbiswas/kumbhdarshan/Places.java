@@ -62,7 +62,7 @@ public class Places extends Fragment {
         Button button=(Button)view.findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Uri uri = Uri.parse("geo:0,0?q=allahabad+sangam");
+                Uri uri = Uri.parse("geo:0,0?q=Swami+Vivekananda+Boy's+Hostel,+MNNIT+Allahabad");
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(uri);
                 startActivity(intent);
