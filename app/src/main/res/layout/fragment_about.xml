@@ -9,13 +9,39 @@
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="349dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="14dp"
-        android:layout_marginTop="0dp"
-        android:text="@string/About_dep1_dep2_dep3"
-        tools:text="  Kumbh Mela ::\n  Devlopers :: \n  Abhijeet Biswas\n  Shrikant Pattawi\n  Satish Kumar" />
+        android:cursorVisible="false" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="324dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="4dp"
+        android:text="ABOUT_DEVELOPERS " />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="177dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="48dp"
+        android:text="1. Abhijeet Biswas"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="161dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="92dp"
+        android:text="Button" />
 </RelativeLayout>
