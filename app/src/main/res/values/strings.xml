@@ -19,4 +19,9 @@
     <string name="ambu">Ambulance : 102</string>
     <string name="police">Police : 100</string>
     <string name="disaster">Disaster Emergencies : 108</string>
+    <string name="About_dep1_dep2_dep3">   Kumbh Mela ::
+    Devlopers:
+                                                Abhijeet Biswas
+                                                Shrikant Pattawi
+                                                  Satish Kumar</string >
 </resources>
