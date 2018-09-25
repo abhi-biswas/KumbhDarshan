@@ -19,15 +19,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="horizontal" />
+            android:orientation="horizontal" >
+
+
+        </LinearLayout>
     </LinearLayout>
+
     <android.support.design.widget.NavigationView
-        android:layout_width="wrap_content"
         android:id="@+id/nav"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        app:menu="@menu/navigation_menu"
         android:layout_gravity="start"
-        android:background="@color/colorPrimaryDark">
+        android:background="@color/colorPrimaryDark"
+        app:itemIconTint="@android:color/holo_blue_bright"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/navigation_menu"
+        >
 
     </android.support.design.widget.NavigationView>
 </android.support.v4.widget.DrawerLayout>
