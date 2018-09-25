@@ -105,53 +105,45 @@
         android:id="@+id/button8"
         android:layout_width="361dp"
         android:layout_height="36dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="187dp"
+        android:layout_marginTop="277dp"
         android:background="@color/white"
         android:text="@string/fire"
-        android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintTop_toBottomOf="@+id/button10"
-        tools:layout_editor_absoluteX="12dp" />
+        android:textColor="@color/colorPrimaryDark" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="361dp"
         android:layout_height="36dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="91dp"
+        android:layout_marginTop="317dp"
         android:background="@color/white"
         android:text="@string/ambu"
-        android:textColor="@color/colorPrimaryDark"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:textColor="@color/colorPrimaryDark" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="361dp"
         android:layout_height="36dp"
         android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="230dp"
         android:background="@color/white"
         android:text="@string/police"
         android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+         />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="361dp"
         android:layout_height="36dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="141dp"
+        android:layout_marginTop="357dp"
         android:background="@color/white"
         android:text="@string/disaster"
-        android:textColor="@color/colorPrimaryDark"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="372dp" />
+        android:textColor="@color/colorPrimaryDark" />
 
 </RelativeLayout>
